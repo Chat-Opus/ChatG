@@ -1,0 +1,18 @@
+{
+  "model_type": "csv-memory-lookup",
+  "runtime_device": "cpu",
+  "source_csv_name": "example.csv",
+  "csv_rows_read": 198,
+  "records_kept": 198,
+  "rows_skipped_empty_question_or_answer": 0,
+  "duplicate_questions_merged": 0,
+  "exported_files": [
+    "config.json",
+    "model.safetensors",
+    "mapping.json",
+    "configuration_csv_memory.py",
+    "modeling_csv_memory.py",
+    "memory_logic.py"
+  ],
+  "note": "Rule-based lookup: no gradient-based neural training or general reasoning occurs."
+}
